@@ -81,7 +81,11 @@ hr{
 
 /*------------------coursers style -------------*/
 
-
+.courses{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap: 24px;
+}
 .course .course-banner img{
     width: 266px;
     height: 141px;
