@@ -5,7 +5,52 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0%;
+
 }
+
+/* ------------nav style start----------------- */
+nav{
+    
+    height: 94px;
+    background-color: #562EFF; 
+    
+}
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 920px;
+    margin: 0 auto;
+    padding-top: 17px;
+    
+}
+.nav-first-part{
+    display: flex;
+    align-items: center;
+}
+.nav-second-part{
+    display: flex;
+    align-items: center;
+}
+.nav-first-part a{ 
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.nav-second-part span a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+
+}
+.nav-first-part a img{
+   width:40px ;
+}
+
+/* ---------------nav style end------------ */
+
+
 main{
     display: flex;
     flex-direction: column;
