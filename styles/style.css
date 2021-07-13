@@ -38,7 +38,7 @@ hr{
 }
 .player{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 .player img{
     height: 56px;
@@ -86,9 +86,14 @@ hr{
     grid-template-columns:repeat(3,1fr);
     grid-column-gap: 24px;
 }
+.course{
+    padding: 16px;
+    box-shadow:0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
 .course .course-banner img{
-    width: 266px;
-    height: 141px;
+    width: 224px;
+    height: 104px;
 }
 .course-info{
     display: flex;
