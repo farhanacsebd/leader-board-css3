@@ -108,3 +108,30 @@ hr{
 .fa-star.empty{
     color:#AEAEAE;
 }
+
+@media only screen and (max-width:668px) {
+    .players , .blogs,.courses{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .container{
+        width: 100%;
+    }
+    .player, .blogs ,.courses{
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (min-width:669px) and (max-width:992px) {
+    .players , .blogs,.courses{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .container{
+        width: 100%;
+    }
+    .player, .blogs ,.courses{
+        flex-direction: column;
+    }
+    
+}
